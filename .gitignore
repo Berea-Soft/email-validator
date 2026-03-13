@@ -5,6 +5,7 @@
 /dist
 /build
 /.vite
+.npmrc
 
 # Test and coverage
 coverage/

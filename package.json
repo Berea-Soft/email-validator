@@ -1,5 +1,5 @@
 {
-  "name": "@bereasoft/email-validator",
+  "name": "@barea_soft/email-validator",
   "version": "1.0.1",
   "type": "module",
   "main": "./dist/email-validator.cjs",
@@ -30,6 +30,10 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
