@@ -2,11 +2,11 @@
 
 **Una librería TypeScript para validación de emails, inspirada en el robusto sistema de validación de Laravel.**
 
-[![NPM version](https://img.shields.io/npm/v/@bereasoft/email-validator.svg)](https://www.npmjs.com/package/@bereasoft/email-validator)
-[![Build Status](https://img.shields.io/circleci/project/github/user/repo/master.svg)](https://circleci.com/gh/user/repo)
-[![Coverage Status](https://img.shields.io/coveralls/github/user/repo.svg)](https://coveralls.io/github/user/repo)
+[![NPM version](https://img.shields.io/npm/v/@bereasoftware/email-validator)](https://www.npmjs.com/package/@bereasoftware/email-validator)
+[![CI](https://github.com/Berea-Soft/email-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/Berea-Soft/email-validator/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/Berea-Soft/email-validator)](https://github.com/Berea-Soft/email-validator/blob/main/LICENSE)
 
-`@bereasoft/email-validator` proporciona una solución completa y tipada para validar direcciones de email en entornos TypeScript, tanto en **Node.js** como en el **navegador**. Replica la funcionalidad y las reglas del popular validador de Laravel, incluyendo soporte para validación de sintaxis RFC, DNS (registros MX), y detección de spoofing.
+`@bereasoftware/email-validator` proporciona una solución completa y tipada para validar direcciones de email en entornos TypeScript, tanto en **Node.js** como en el **navegador**. Replica la funcionalidad y las reglas del popular validador de Laravel, incluyendo soporte para validación de sintaxis RFC, DNS (registros MX), y detección de spoofing.
 
 ## Características
 
@@ -29,11 +29,11 @@
 ## Instalación
 
 ```bash
-pnpm add @bereasoft/email-validator
+pnpm add @bereasoftware/email-validator
 # o
-npm install @bereasoft/email-validator
+npm install @bereasoftware/email-validator
 # o
-yarn add @bereasoft/email-validator
+yarn add @bereasoftware/email-validator
 ```
 
 ---
@@ -45,7 +45,7 @@ yarn add @bereasoft/email-validator
 La forma más sencilla y expresiva de usar la librería es a través de la API fluida, que permite encadenar las reglas de validación deseadas.
 
 ```typescript
-import { email } from '@bereasoft/email-validator';
+import { email } from '@bereasoftware/email-validator';
 
 // --- Validación Asíncrona (con DNS) ---
 
@@ -77,7 +77,7 @@ console.log(syncResult.valid); // true
 Para un control más programático, puedes instanciar la clase `EmailValidator` y pasarle las reglas en el constructor o en cada llamada.
 
 ```typescript
-import { EmailValidator } from '@bereasoft/email-validator';
+import { EmailValidator } from '@bereasoftware/email-validator';
 
 // Crear una instancia con reglas por defecto
 const validator = new EmailValidator({ rules: ['rfc', 'dns'] });
@@ -99,7 +99,7 @@ console.log(syncResult.valid);
 Para validaciones rápidas donde solo necesitas un resultado booleano.
 
 ```typescript
-import { isValidEmail, isValidEmailAsync } from '@bereasoft/email-validator';
+import { isValidEmail, isValidEmailAsync } from '@bereasoftware/email-validator';
 
 // Síncrono (solo sintaxis RFC por defecto)
 if (isValidEmail('user@example.com')) {
