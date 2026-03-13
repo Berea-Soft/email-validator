@@ -1,4 +1,4 @@
-# TS Email Validator
+# Email Validator
 
 **Una librería TypeScript para validación de emails, inspirada en el robusto sistema de validación de Laravel.**
 
