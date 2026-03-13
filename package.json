@@ -1,0 +1,84 @@
+{
+  "name": "@bereasoft/email-validator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/email-validator.cjs",
+  "module": "./dist/email-validator.es.js",
+  "types": "./dist/types/index.d.ts",
+  "unpkg": "./dist/email-validator.umd.js",
+  "browser": {
+    "./dist/email-validator.umd.js": "./dist/email-validator.umd.js",
+    "./dist/email-validator.iife.js": "./dist/email-validator.iife.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/email-validator.es.js",
+      "require": "./dist/email-validator.cjs"
+    },
+    "./umd": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/email-validator.umd.js",
+      "require": "./dist/email-validator.umd.js"
+    },
+    "./iife": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.iife.js",
+      "require": "./dist/index.iife.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "postrelease": "git push --follow-tags origin main && npm publish",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "email",
+    "validation",
+    "typescript",
+    "dns",
+    "rfc",
+    "laravel",
+    "vite"
+  ],
+  "author": "John Andrade <johnandrade@bereasoft.com>",
+  "license": "MIT",
+  "description": "A professional TypeScript email validation library inspired by Laravel's rules, bundled with Vite for ESM and CJS support.",
+  "maintainers": [
+    {
+      "name": "John Andrade",
+      "email": "johnandrade@bereasoft.com"
+    }
+  ],
+  "engines": {
+    "node": ">=20.18.0",
+    "npm": ">=10.8.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not IE 11",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
