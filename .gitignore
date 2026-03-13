@@ -1,10 +1,10 @@
 # Dependencies
-node_modules/
+/node_modules
 
 # Build outputs
-dist/
-build/
-.vite/
+/dist
+/build
+/.vite
 
 # Test and coverage
 coverage/
@@ -29,8 +29,8 @@ pnpm-debug.log*
 .env.production.local
 
 # Editor/IDE
-.vscode/
-.idea/
+/.vscode/
+/.idea/
 *.swp
 *.swo
 
