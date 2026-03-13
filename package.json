@@ -1,5 +1,5 @@
 {
-  "name": "@barea_soft/email-validator",
+  "name": "@bareasoftware/email-validator",
   "version": "1.0.2",
   "type": "module",
   "main": "./dist/email-validator.cjs",
