@@ -1,6 +1,6 @@
 {
   "name": "@bereasoftware/email-validator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "main": "./dist/email-validator.cjs",
   "module": "./dist/email-validator.es.js",
@@ -64,6 +64,13 @@
       "email": "johnandrade@bereasoft.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Berea-Soft/email-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/Berea-Soft/email-validator/issues"
+  },
   "engines": {
     "node": ">=20.18.0",
     "npm": ">=10.8.2"
@@ -80,9 +87,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-dts": "^4.5.4",
-    "vitest": "^4.0.18"
-  },
-  "dependencies": {
+    "vitest": "^4.0.18",
     "standard-version": "^9.5.0"
   }
 }
