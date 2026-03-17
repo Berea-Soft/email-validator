@@ -2,13 +2,15 @@
 
 **Una librería TypeScript para validación de emails, inspirada en el robusto sistema de validación de Laravel.**
 
-[![NPM version](https://img.shields.io/npm/v/@bereasoftware/email-validator)](https://www.npmjs.com/package/@bereasoftware/email-validator)
-[![NPM downloads](https://img.shields.io/npm/dm/@bereasoftware/email-validator)](https://www.npmjs.com/package/@bereasoftware/email-validator)
-[![CI](https://github.com/Berea-Soft/email-validator/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Berea-Soft/email-validator/actions/workflows/ci.yml)
-[![Node](https://img.shields.io/node/v/@bereasoftware/email-validator)](https://www.npmjs.com/package/@bereasoftware/email-validator)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/github/license/Berea-Soft/email-validator)](https://github.com/Berea-Soft/email-validator/blob/main/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/Berea-Soft/email-validator)](https://github.com/Berea-Soft/email-validator/commits/main)
+[![NPM version](https://img.shields.io/npm/v/@bereasoftware/email-validator?style=for-the-badge)](https://www.npmjs.com/package/@bereasoftware/email-validator)
+[![NPM downloads](https://img.shields.io/npm/dm/@bereasoftware/email-validator?style=for-the-badge)](https://www.npmjs.com/package/@bereasoftware/email-validator)
+[![CI](https://img.shields.io/github/actions/workflow/status/Berea-Soft/email-validator/ci.yml?style=for-the-badge)](https://github.com/Berea-Soft/email-validator/actions/workflows/ci.yml)
+[![Node](https://img.shields.io/node/v/@bereasoftware/email-validator?style=for-the-badge)](https://www.npmjs.com/package/@bereasoftware/email-validator)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/github/license/Berea-Soft/email-validator?style=for-the-badge)](https://github.com/Berea-Soft/email-validator/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Berea-Soft/email-validator?style=for-the-badge)](https://github.com/Berea-Soft/email-validator/commits/main)
+[![Repository](https://img.shields.io/badge/github-repo-blue?logo=github&style=for-the-badge)](https://github.com/Berea-Soft/email-validator)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-orange?style=for-the-badge)](https://github.com/Berea-Soft/email-validator)
 
 `@bereasoftware/email-validator` proporciona una solución completa y tipada para validar direcciones de email en entornos TypeScript, tanto en **Node.js** como en el **navegador**. Replica la funcionalidad y las reglas del popular validador de Laravel, incluyendo soporte para validación de sintaxis RFC, DNS (registros MX), y detección de spoofing.
 
